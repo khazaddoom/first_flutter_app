@@ -6,7 +6,7 @@ class Button extends StatelessWidget {
   final Color colorValue;
   final Function handleClick;
 
-  Button(this.title, this.colorValue, this.handleClick, {Key? key}) : super(key: key);
+  const Button(this.title, this.colorValue, this.handleClick, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
